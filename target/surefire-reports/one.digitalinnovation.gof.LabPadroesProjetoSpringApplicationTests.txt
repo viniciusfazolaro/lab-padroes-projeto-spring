@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: one.digitalinnovation.gof.LabPadroesProjetoSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.873 s <<< FAILURE! - in one.digitalinnovation.gof.LabPadroesProjetoSpringApplicationTests
+one.digitalinnovation.gof.LabPadroesProjetoSpringApplicationTests  Time elapsed: 0.87 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\Users\vinic\OneDrive\Documentos\SantanderBootcamp\SpringBoot\lab-padroes-projeto-spring\target\test-classes\one\digitalinnovation\gof\LabPadroesProjetoSpringApplicationTests.class]; nested exception is org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\vinic\OneDrive\Documentos\SantanderBootcamp\SpringBoot\lab-padroes-projeto-spring\target\test-classes\one\digitalinnovation\gof\LabPadroesProjetoSpringApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+Caused by: org.springframework.core.NestedIOException: ASM ClassReader failed to parse class file - probably due to a new Java class file version that isn't supported yet: file [C:\Users\vinic\OneDrive\Documentos\SantanderBootcamp\SpringBoot\lab-padroes-projeto-spring\target\test-classes\one\digitalinnovation\gof\LabPadroesProjetoSpringApplicationTests.class]; nested exception is java.lang.IllegalArgumentException: Unsupported class file major version 65
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 65
+
